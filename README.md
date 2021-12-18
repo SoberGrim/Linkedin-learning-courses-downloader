@@ -20,7 +20,7 @@ Chrome -> Extensions -> "Developer Mode: on"
 # Usage:
 
 2* Open www.linkedin.com/learning -> click any course<br> 
-You may open several courses in different tabs at the same time - it will work fine too<br><br>
+You may open several courses in different tabs at the same time - all tabs will start auto-downloading videos<br><br>
 3* Plugin starts auto-downloading any videos, that are played on www.linkedin.com/learning to your "Downloads" folder in background.<br>
 
 4* ...Watch your saved videos any time later or share with friends...<br>
