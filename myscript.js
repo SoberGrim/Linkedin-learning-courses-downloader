@@ -44,7 +44,7 @@ function monitorURLChange() {
 
 {
     
-    console.log("Linkedin Learning courses Downloader script Started");
+    console.log("Linkedin learning courses downloader script Started");
     setTimeout(function () { parseVideoUrlandDownload() }, 5000);
     var monitor = new monitorURLChange();
     
