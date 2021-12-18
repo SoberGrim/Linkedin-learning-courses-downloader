@@ -11,13 +11,13 @@ your "Downloads" folder. When the next video "Downloading Java on your computer"
 
 # How to:
 1* Install plugin to chrome<br>
-Plugins -> Developer mode -> Install unpacked plugin -> Choose folder with this plugin (it will be shown as empty). Press OK.<br>
+Plugins -> Developer mode -> Install unpacked plugin -> Choose folder with this plugin (it will be shown as empty). Press OK.<br><br>
 2* Open www.linkedin.com/learning -> open any course<br> 
-You may open several courses in different tabs at the same time - it will work fine too<br>
-3* Plugin starts auto-downloading any videos to your "Downloads" folder in background. Noting nore needed for it to work.<br>
-4* ...<br>
-5* ...Watch your saved videos any time later or share with friends...<br>
-5* PROFIT<br>
+You may open several courses in different tabs at the same time - it will work fine too<br><br>
+3* Plugin starts auto-downloading any videos to your "Downloads" folder in background. Noting nore needed for it to work.<br><br>
+4* ...<br><br>
+5* ...Watch your saved videos any time later or share with friends...<br><br>
+5* PROFIT<br><br>
 
 <b>Have Fun!<b>
 
