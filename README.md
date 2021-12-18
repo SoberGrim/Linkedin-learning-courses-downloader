@@ -8,10 +8,17 @@ This plugin solves the problem. Whenever you open a Linkedin Learning courses pa
 Example: you open "Learning Java" course, "What is Java?" video is auto started. The same time you are watching the video the plugin auto-downloads it with a name "Learning_Java_-_What_is_Java_.mp4" to
 your "Downloads" folder. When the next video "Downloading Java on your computer" auto starts - the plugin auto-downloads it to your "Downloads" folder too. And so on.
 
+# Install:
+Chrome -> Extensions -> "Developer Mode: on"
 
-# How to:
-1* Install plugin to chrome<br>
-Plugins -> Developer mode: on -> Install unpacked plugin -> Choose folder with this plugin (it will be shown as empty). Press OK.<br><br>
+![image](https://user-images.githubusercontent.com/12745995/139560473-7a8ce50d-4a16-4e69-8e76-721ca10c7792.png)
+
+"Upload unpacked extension" -> choose folder with this plugin. Press OK.
+
+![image](https://user-images.githubusercontent.com/12745995/139560543-d136493f-2805-416d-b9fa-295530c722b9.png)
+
+# Usage:
+
 2* Open www.linkedin.com/learning -> open any course<br> 
 You may open several courses in different tabs at the same time - it will work fine too<br><br>
 3* Plugin starts auto-downloading any videos, that are played on www.linkedin.com/learning to your "Downloads" folder in background.<br>
