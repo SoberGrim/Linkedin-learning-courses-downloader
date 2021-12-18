@@ -11,7 +11,7 @@ your "Downloads" folder. When the next video "Downloading Java on your computer"
 
 # How to:
 1* Install plugin to chrome<br>
-Plugins -> Developer mode -> Install unpacked plugin -> Choose folder with this plugin (it will be shown as empty). Press OK.<br><br>
+Plugins -> Developer mode: on -> Install unpacked plugin -> Choose folder with this plugin (it will be shown as empty). Press OK.<br><br>
 2* Open www.linkedin.com/learning -> open any course<br> 
 You may open several courses in different tabs at the same time - it will work fine too<br><br>
 3* Plugin starts auto-downloading any videos, that are played on www.linkedin.com/learning to your "Downloads" folder in background.<br>
