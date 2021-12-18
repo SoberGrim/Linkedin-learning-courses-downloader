@@ -1,6 +1,6 @@
 {
-	"name":"Linkedin Learning courses Downloader",
-	"description":"Linkedin Learning video courses Downloader by SoberGrim",
+	"name":"Linkedin learning courses downloader",
+	"description":"Linkedin learning video courses downloader by SoberGrim",
 	"version":"1.0",
 	"manifest_version":2,
 	"icons": { "16": "logo.png",
