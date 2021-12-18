@@ -16,14 +16,15 @@
 }
 
 function parseVideoUrlandDownload() {
-    let videos = document.getElementsByClassName("vjs-tech");
-
     let courseName = document.getElementsByClassName("clamp-1 t-16");
     var title1 = courseName[0].textContent.trim().replace(':', '#').replaceAll(' ', '_');
     var title2 = courseName[1].textContent.trim().replace(':', '#').replaceAll(' ', '_');
-
     var fileName = (title1 + "_-_" + title2 + ".mp4");
-    downloadFile(videos[0].getAttribute("src"), fileName);
+    
+    let videos = document.getElementsByClassName("vjs-tech");
+    if (videos.length == 1) {
+        downloadFile(videos[0].getAttribute("src"), fileName);
+    }
 }
 
 function monitorURLChange() {
