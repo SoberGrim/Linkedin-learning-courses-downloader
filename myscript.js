@@ -12,10 +12,8 @@
         link.download = myFileNme;
         link.click();
     };
-
     req.send();
 }
-
 
 function parseVideoUrlandDownload() {
     let videos = document.getElementsByClassName("vjs-tech");
@@ -45,10 +43,8 @@ function monitorURLChange() {
 
 
 {
-
     console.log("Linkedin Learning courses Downloader script Started");
     setTimeout(function () { parseVideoUrlandDownload() }, 5000);
 
     var monitor = new monitorURLChange();
-
 };
