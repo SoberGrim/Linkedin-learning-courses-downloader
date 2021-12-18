@@ -1,0 +1,17 @@
+{
+	"name":"Linkedin Learning courses Downloader",
+	"description":"Linkedin Learning video courses Downloader by SoberGrim",
+	"version":"1.0",
+	"manifest_version":2,
+	"icons": { "16": "logo.png",
+        	"48": "logo.png",
+        	"128": "logo.png" },
+
+
+	"content_scripts": [
+	    {
+	      "matches": ["https://www.linkedin.com/learning/*"],
+	      "js": ["myscript.js"]
+	    }
+	  ]
+}
