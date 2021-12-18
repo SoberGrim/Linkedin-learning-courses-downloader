@@ -1,4 +1,4 @@
-﻿function downloadFile(urlToSend, fileName) {
+function downloadFile(urlToSend, fileName) {
     let myFileNme = fileName;
     console.log("Downloading: " + myFileNme);
 
@@ -12,15 +12,21 @@
         link.download = myFileNme;
         link.click();
     };
+
     req.send();
 }
 
+var videoCount = 1;
 function parseVideoUrlandDownload() {
+    var fileName = 'unknown';
     let courseName = document.getElementsByClassName("clamp-1 t-16");
-    var title1 = courseName[0].textContent.trim().replace(':', '#').replaceAll(' ', '_');
-    var title2 = courseName[1].textContent.trim().replace(':', '#').replaceAll(' ', '_');
-    var fileName = (title1 + "_-_" + title2 + ".mp4");
-    
+    if (courseName.length == 2) {
+        let title1 = courseName[0].textContent.trim().replace(':', '#').replaceAll(' ', '_');
+        let title2 = courseName[1].textContent.trim().replace(':', '#').replaceAll(' ', '_');
+        fileName = (title1 + "_-_#" + videoCount + '_' + title2 + ".mp4");
+        videoCount++;
+    }
+
     let videos = document.getElementsByClassName("vjs-tech");
     if (videos.length == 1) {
         downloadFile(videos[0].getAttribute("src"), fileName);
@@ -44,9 +50,9 @@ function monitorURLChange() {
 
 
 {
-    
-    console.log("Linkedin learning courses downloader script Started");
+
+    console.log("Linkedin Learning courses Downloader script Started");
     setTimeout(function () { parseVideoUrlandDownload() }, 5000);
     var monitor = new monitorURLChange();
-    
+
 };
