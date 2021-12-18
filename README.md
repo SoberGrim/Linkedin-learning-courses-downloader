@@ -1,5 +1,5 @@
 # Linkedin learning courses downloader
-Linkedin learning courses downloader Chrome plugin by SoberGrim
+Chrome plugin by SoberGrim
 
 www.linkedin.com/learning has a lots of interesting learning courses, wich you would possibly prefer to download for further watching.
 Sadly, there is no "download this video course" button.
