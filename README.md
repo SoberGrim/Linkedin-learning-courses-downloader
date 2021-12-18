@@ -23,7 +23,7 @@ Chrome -> Extensions -> "Developer Mode: on"
 You may open several courses in different tabs at the same time - all of them will start auto-downloading videos<br><br>
 2* Plugin auto-downloads any videos played on www.linkedin.com/learning to your "Downloads" folder in background.<br>
 Downloaded files are called <i>course name</i> + <i>video name</i> + <i>mp4</i> (example: "_Learning_Java_-_Wha_is_Java_.mp4")<br><br>
-3* Watch your saved videos any time later or share with friends...<br>
+3* Watch your saved videos any time later on or share with friends...<br>
 ...<br>
 PROFIT!<br><br>
 
