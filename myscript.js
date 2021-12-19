@@ -16,6 +16,7 @@ function downloadFile(urlToSend, fileName) {
     req.send();
 }
 
+var chapterCount = 1;
 var videoCount = 1;
 function parseVideoUrlandDownload() {
     var fileName = 'unknown';
@@ -23,13 +24,16 @@ function parseVideoUrlandDownload() {
     if (courseName.length == 2) {
         let title1 = courseName[0].textContent.trim().replace(':', '#').replaceAll(' ', '_');
         let title2 = courseName[1].textContent.trim().replace(':', '#').replaceAll(' ', '_');
-        fileName = (title1 + "_-_#" + videoCount + '_' + title2 + ".mp4");
-        videoCount++;
+        fileName = (title1 + "_-_#" + chapterCount + '-' + videoCount + '_' + title2 + ".mp4");
     }
 
     let videos = document.getElementsByClassName("vjs-tech");
     if (videos.length == 1) {
         downloadFile(videos[0].getAttribute("src"), fileName);
+        videoCount++;
+    } else {
+        chapterCount++;
+        videoCount = 1;
     }
 }
 
