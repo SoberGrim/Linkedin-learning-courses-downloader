@@ -1,10 +1,30 @@
+{
+    var statusDiv = document.createElement('div');
+    statusDiv.innerHTML = "<strong>Linkedin video Downloader</strong> (Searching video URL...)";
+    document.body.prepend(statusDiv);
+}
+
 function downloadFile(urlToSend, fileName) {
     let myFileNme = fileName;
-    console.log("Downloading: " + myFileNme);
+    statusDiv.innerHTML = "<strong>File:</strong> " + myFileNme + "  (Wating for file...)";
+    window.scrollTo(0, 0);
 
     var req = new XMLHttpRequest();
     req.open("GET", urlToSend, true);
     req.responseType = "blob";
+
+    req.onprogress = function (pe) {
+        if (pe.lengthComputable) {
+            statusDiv.innerHTML = "<strong>File:</strong> " + myFileNme + " (" + pe.loaded + "/" + pe.total + " bytes)";
+        } else {
+            statusDiv.innerHTML = "<strong>File:</strong> " + myFileNme + " (" + pe.loaded + " bytes)";
+        }
+    };
+
+    req.onerror = function (event) {
+        statusDiv.innerHTML = "<strong>File:</strong> " + myFileNme + " - <strong>Failed</strong>";
+    };
+
     req.onload = function (event) {
         var blob = req.response;
         var link = document.createElement('a');
@@ -12,6 +32,11 @@ function downloadFile(urlToSend, fileName) {
         link.download = myFileNme;
         link.click();
     };
+
+    req.onloadend = function (event) {
+        statusDiv.innerHTML = "<strong>File:</strong> " + myFileNme + " - <strong>Success</strong>";
+    };
+
 
     req.send();
 }
@@ -39,11 +64,11 @@ function parseVideoUrlandDownload() {
 
 function monitorURLChange() {
     let oldlocation = window.location.pathname;
-    console.log("URL monitoring started");
 
     var detect = function () {
         if (oldlocation != window.location.pathname) {
-            console.log("Url chenged to " + window.location.pathname);
+            console.log("Url changed to " + window.location.pathname);
+            statusDiv.innerHTML = "<strong>Linkedin Learning courses Downloader status</strong><br>Status: URL changed to " + window.location.pathname;
             oldlocation = window.location.pathname;
 
             parseVideoUrlandDownload();
@@ -55,7 +80,6 @@ function monitorURLChange() {
 
 {
 
-    console.log("Linkedin Learning courses Downloader script Started");
     setTimeout(function () { parseVideoUrlandDownload() }, 5000);
     var monitor = new monitorURLChange();
 
