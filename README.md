@@ -35,5 +35,5 @@ Downloaded files are called:<br>
 ...<br><br>
 
 
-5. <b>_Have Fun!_</b>
+5* <b><i>Have Fun!</i></b>
 
