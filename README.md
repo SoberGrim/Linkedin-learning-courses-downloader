@@ -5,8 +5,8 @@ www.linkedin.com/learning has lots of interesting learning courses, which you wo
 Sadly, there is no "download this video course" button.
 
 This plugin solves the problem. Whenever you open a Linkedin Learning courses page with a video - this video auto downloads to your "Downloads" folder.
-Example: you open "Learning Java" course, "What is Java?" video is auto started. The same time you are watching the video the plugin auto-downloads it with a name "Learning_Java_-_What_is_Java_.mp4" to
-your "Downloads" folder. When the next video "Downloading Java on your computer" auto starts - the plugin auto-downloads it to your "Downloads" folder too. And so on.
+Example: you open "Learning Java" course. "What is Java?" video is started. At the same time you are watching the video this plugin auto-downloads the video to a file named "Learning_Java_-#1_1_What_is_Java_.mp4" in your "Downloads" folder (#1_1 is the video chapter number + video number). <br>
+When the next video "Downloading Java on your computer" auto starts - the plugin auto-downloads it to your "Downloads" folder too. And so on.
 
 # Install:
 Chrome -> Extensions -> "Developer Mode: on"
