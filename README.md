@@ -34,7 +34,7 @@ Downloaded files are called:<br>
 <img src="https://github.com/SoberGrim/Linkedin-learning-courses-downloader/blob/main/img/image2.png" width="650"><br>
 ...<br><br>
 
-4* Subscribe  <a href="https://twitter.com/SoberGrim">![Twitter Follow](https://img.shields.io/twitter/follow/SoberGrim?style=social)</a><br>
+4* Subscribe <a href="https://twitter.com/SoberGrim">![Twitter Follow](https://img.shields.io/twitter/follow/SoberGrim?style=social)</a><br>
 <a href="https://github.com/SoberGrim">![GitHub followers](https://img.shields.io/github/followers/SoberGrim?style=social)</a><br>
-5* <b>and Have Fun!</b>
+5* <b>Have Fun!</b>
 
