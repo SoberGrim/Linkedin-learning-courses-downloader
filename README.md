@@ -28,7 +28,7 @@ You may open several courses in different tabs at the same time - all of them wi
 
 
 Downloaded files are called:<br> 
-<i>course name</i> + "#" + <i>video_chapter</i>+'_'+<i>video_number</i> + <i>video name</i> + <i>mp4</i><br>
+<i>course name</i> + '#' + <i>video_chapter</i> + '_' + <i>video_number</i> + <i>video name</i> + <i>.mp4</i><br>
 (example: "_Learning_Java_-_Wha_is_Java_.mp4")<br><br>
 3* Watch your saved videos any time later on or share with friends...<br>
 ...<br>
