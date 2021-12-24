@@ -31,9 +31,9 @@ Downloaded files are called:<br>
 <i>course name</i> + '#' + <i>video_chapter</i> + '-' + <i>video_number</i> + '_' + <i>video name</i> + <i>.mp4</i><br>
 (example: "Learning_Java_-_#1-1_Welcome_to_learning_Java.mp4")<br><br>
 3* Watch your saved videos any time later on or share with friends...<br>
-![image](https://github.com/SoberGrim/Linkedin-learning-courses-downloader/blob/main/img/image2.png)<br>
+<img src="https://github.com/SoberGrim/Linkedin-learning-courses-downloader/blob/main/img/image2.png" width="256">
 ...<br>
-PROFIT!<br><br>
 
-<b>Have Fun!<b>
+
+# Have Fun!
 
