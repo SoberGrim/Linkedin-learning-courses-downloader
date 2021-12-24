@@ -27,7 +27,7 @@ You may open several courses in different tabs at the same time - all of them wi
 ![image](https://github.com/SoberGrim/Linkedin-learning-courses-downloader/blob/main/image.png)<br>
 
 
-Downloaded files are called <i>course name</i> + <i>video name</i> + <i>mp4</i> (example: "_Learning_Java_-_Wha_is_Java_.mp4")<br><br>
+Downloaded files are called <i>course name</i> + <i>video name</i> + <i>video_number</i> + <i>mp4</i> (example: "_Learning_Java_-_Wha_is_Java_.mp4")<br><br>
 3* Watch your saved videos any time later on or share with friends...<br>
 ...<br>
 PROFIT!<br><br>
