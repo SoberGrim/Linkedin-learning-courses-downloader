@@ -32,7 +32,9 @@ Downloaded files are called:<br>
 (example: "Learning_Java_-_#1-1_Welcome_to_learning_Java.mp4")<br><br>
 3* Watch your saved videos at any time later on and share them with friends...<br>
 <img src="https://github.com/SoberGrim/Linkedin-learning-courses-downloader/blob/main/img/image2.png" width="650"><br>
-...<br><br>
+...<br>
 
 5* <b>Have Fun!</b>
+
+Subscribe <a href="https://twitter.com/SoberGrim">![Twitter Follow](https://img.shields.io/twitter/follow/SoberGrim?style=social)</a><br>
 
