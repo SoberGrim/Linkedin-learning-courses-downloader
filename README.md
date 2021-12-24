@@ -22,7 +22,7 @@ On the same page "Upload unpacked extension" -> choose folder with this plugin (
 
 1* Open www.linkedin.com/learning -> click any course<br> 
 You may open several courses in different browser tabs at the same time - all of them will start auto-downloading videos<br><br>
-2* Plugin auto-downloads any videos played on www.linkedin.com/learning to your "Downloads" folder in background.<br><br>
+2* This plugin auto-downloads any videos played on www.linkedin.com/learning to your "Downloads" folder in background.<br><br>
 <b>It will look like this:</b><br><br>
 <img src="https://github.com/SoberGrim/Linkedin-learning-courses-downloader/blob/main/img/image.png" width="650">
 
