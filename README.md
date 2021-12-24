@@ -30,7 +30,7 @@ You may open several courses in different browser tabs at the same time - all of
 Downloaded files are called:<br> 
 <i>Course name</i> + '#' + <i>video_chapter</i> + '-' + <i>video_number</i> + '_' + <i>Video name</i> + <i>.mp4</i><br>
 (example: "Learning_Java_-_#1-1_Welcome_to_learning_Java.mp4")<br><br>
-3* Watch your saved videos at any time later on and share them with friends<br>
+3* Watch your saved videos at any time later on and share them with friends...<br>
 <img src="https://github.com/SoberGrim/Linkedin-learning-courses-downloader/blob/main/img/image2.png" width="650"><br>
 ...<br>
 
