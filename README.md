@@ -36,4 +36,7 @@ Downloaded files are called:<br>
 
 
 5* <b><i>Have Fun!</i></b>
+<a href="https://twitter.com/SoberGrim">![Twitter Follow](https://img.shields.io/twitter/follow/SoberGrim?style=social)</a>
+<a href="https://github.com/SoberGrim">![GitHub followers](https://img.shields.io/github/followers/SoberGrim?style=social)</a>
+5* <b><i>and Have Fun!</i></b>
 
