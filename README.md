@@ -14,7 +14,7 @@ Chrome -> Extensions -> turn "Developer Mode: on"
 
 <img src="https://user-images.githubusercontent.com/12745995/139560473-7a8ce50d-4a16-4e69-8e76-721ca10c7792.png" width="250">
 
-"Upload unpacked extension" -> choose folder with this plugin (it will be shown as empty) Press OK.
+On the same page "Upload unpacked extension" -> choose folder with this plugin (it will be shown as empty) Press OK.
 
 <img src="https://user-images.githubusercontent.com/12745995/139560543-d136493f-2805-416d-b9fa-295530c722b9.png" width="400">
 
