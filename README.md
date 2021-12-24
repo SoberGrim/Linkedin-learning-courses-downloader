@@ -9,7 +9,7 @@ Example: you open "Learning Java" course. "What is Java?" video is started. <br>
 When the next video "Downloading Java on your computer" starts playing - the plugin auto-downloads it to your "Downloads" folder too. 
 <br>And so on.
 
-# Install:
+# Installation:
 Chrome -> Extensions -> turn "Developer Mode: on"
 
 <img src="https://user-images.githubusercontent.com/12745995/139560473-7a8ce50d-4a16-4e69-8e76-721ca10c7792.png" width="250">
