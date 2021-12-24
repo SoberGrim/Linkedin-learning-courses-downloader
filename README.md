@@ -22,8 +22,8 @@ Chrome -> Extensions -> "Developer Mode: on"
 
 1* Open www.linkedin.com/learning -> click any course<br> 
 You may open several courses in different tabs at the same time - all of them will start auto-downloading videos<br><br>
-2* Plugin auto-downloads any videos played on www.linkedin.com/learning to your "Downloads" folder in background.<br>
-<b>It will look like this:</b><br>
+2* Plugin auto-downloads any videos played on www.linkedin.com/learning to your "Downloads" folder in background.<br><br>
+<b>It will look like this:</b><br><br>
 ![image](https://github.com/SoberGrim/Linkedin-learning-courses-downloader/blob/main/image.png)<br>
 
 
